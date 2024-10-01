@@ -9,5 +9,57 @@ ul li {
 }
 
 a {
-  color: black;
+  color: #000;
+  text-decoration: none;
+}
+
+.container {
+  margin: 0 auto;
+  width: 80%;
+}
+
+nav {
+  background-color: lightgrey;
+}
+nav .nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: no-wrap;
+}
+nav .nav .nav-center ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: no-wrap;
+}
+nav .nav .nav-center ul li a {
+  padding: 20px;
+  display: inline-block;
+}
+nav .nav .nav-center ul li a:hover {
+  background-color: orange;
+  color: white;
+}
+nav .nav .nav-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: no-wrap;
+  gap: 20px;
+}
+nav .nav .nav-right .fa-bars {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  nav .nav .nav-center {
+    display: none;
+  }
+  nav .nav .nav-right .fa-bars {
+    display: block;
+  }
 }

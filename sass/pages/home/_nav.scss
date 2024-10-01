@@ -1,0 +1,48 @@
+@use "../../utilities/variables" as *;
+@use "../../utilities/mixins" as *;
+
+nav {
+  background-color: $light-grey;
+  .nav {
+    @include flex(space-between, center);
+    .nav-center {
+      ul {
+        @include flex(center, center);
+        li {
+          a {
+            padding: 20px;
+            display: inline-block;
+            &:hover {
+              background-color: $primary-color;
+              color: white;
+            }
+          }
+        }
+      }
+    }
+    .nav-right {
+      @include flex(center, center);
+      gap: 20px;
+      .fa-bars {
+        display: none;
+      }
+    }
+  }
+}
+
+// media querries
+
+@media screen and (max-width: 600px) {
+  nav {
+    .nav {
+      .nav-center {
+        display: none;
+      }
+      .nav-right {
+        .fa-bars {
+          display: block;
+        }
+      }
+    }
+  }
+}

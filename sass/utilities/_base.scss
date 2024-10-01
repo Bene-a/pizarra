@@ -1,3 +1,5 @@
+@use "./variables" as *;
+
 *{
     margin: 0;
     padding: 0;
@@ -7,5 +9,10 @@ ul li {
     list-style: none;
 }
 a{
-    color: black;
+    color: $black;
+    text-decoration: none;
+}
+.container{
+    margin:0 auto;
+    width: 80%;
 }
