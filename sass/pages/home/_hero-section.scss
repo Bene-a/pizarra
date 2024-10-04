@@ -1,0 +1,94 @@
+@use "../../utilities/variables" as *;
+@use "../../utilities/mixins" as *;
+* {
+  margin: auto;
+  padding: 0%;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Kanit";
+}
+.hero-section{
+  @include flex(space-between,center);
+  padding: 2%;
+  margin: 30px;
+}
+.h1-head{
+  font-size: 70px;
+}
+.graph{
+  font-size: 20px;
+  margin-right: 10%;
+}
+p{
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+.yellow{
+  color: $primary-color;
+}
+.search-bar{
+  border: none;
+  outline: none;
+}
+.btn {
+  width: 90px;
+   height: 60px;
+   padding: 0.5rem 1rem;
+   background-color: black;
+   color: #fff;
+   outline: none;
+   border: none;
+   border-top-right-radius: 10px;
+   border-bottom-right-radius: 10px;
+   cursor: pointer;
+   &:hover{
+    background-color: #444;
+}
+}
+.reviews{
+  @include flex(space-between,center);
+  margin:2rem 0;
+  width:450px;
+}
+.box-review{
+  padding: 1PX;
+  align-items: center;
+  text-align: center;
+  border: 1px solid $light-grey;
+  border-radius: 10px;
+  width: 30%;
+  background-color: $light-grey;
+  @media (max-width: 768px) {
+     flex-direction: column;
+     align-items: center;
+   }
+}
+.background{
+  align-items: center;
+  background-color: $black;
+  width: 70px;
+  height: 50px;
+  display: flex;
+  border: 10px solid;
+  border-radius: 70%;
+  margin-left: 20;
+  padding: 1px;
+}
+.img{
+  @include flex(space-between,center);
+  padding-left: 2%;
+ width:50px;
+ height:50px;
+ border-radius:50%;
+}
+
+
+
+
+
+
+
+
+
+
