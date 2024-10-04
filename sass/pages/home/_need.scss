@@ -1,0 +1,42 @@
+@use "../../utilities/variables" as *;
+@use "../../utilities/mixins" as *;
+
+.any {
+  color: $primary-color;
+  text-align: center;
+}
+.our{
+    text-align: center;
+}
+.images {
+  margin-left: 19%;
+}
+.support {
+  @include flex(space-between, center);
+
+}
+.email-1{
+    background-color: $light-grey;
+    padding: 1px;
+    align-items: center;
+    text-align: center;
+    border: 1px solid $light-grey;
+    width: 30%;
+
+}
+.email-2{
+    background-color: $light-grey;
+    padding: 1px;
+    align-items: center;
+    text-align: center;
+    border: 1px solid $light-grey;
+    width: 30%;
+}
+.email-3{
+    background-color: $light-grey;
+    padding: 1px;
+    align-items: center;
+    text-align: center;
+    border: 1px solid $light-grey;
+    width: 30%;
+}

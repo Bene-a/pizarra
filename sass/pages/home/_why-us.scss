@@ -1,0 +1,13 @@
+@use "../../utilities/variables" as *;
+@use "../../utilities/mixins" as *;
+
+#c {
+  background-color: $black;
+}
+.fresh {
+  display: flex;
+  background-color: $light-grey;
+}
+.why-us {
+  @include flex(space-between, center);
+}

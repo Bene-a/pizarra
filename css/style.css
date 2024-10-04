@@ -19,7 +19,7 @@ a {
 }
 
 nav {
-  background-color: lightgrey;
+  background-color: #f4f7fb;
 }
 nav .nav {
   display: flex;
@@ -62,4 +62,305 @@ nav .nav .nav-right .fa-bars {
   nav .nav .nav-right .fa-bars {
     display: block;
   }
+}
+* {
+  margin: auto;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Kanit";
+}
+
+.health {
+  margin-left: 12%;
+}
+
+.pizza-w {
+  margin-left: 50%;
+  margin-top: 10;
+}
+
+.search-bar {
+  margin-top: 20px;
+  margin-left: 10%;
+}
+
+.search-bar .search-btn {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.search-bar input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid gray;
+  width: 250px;
+}
+
+.search-bar .search-btn:hover {
+  background-color: #f4b41a;
+}
+
+.pizza-image {
+  max-width: 400px;
+  border-radius: 20px;
+  margin-left: 55%;
+  margin-bottom: 50px;
+}
+
+.features {
+  display: flex;
+  margin-right: 10%;
+}
+
+.image {
+  width: 200px;
+  background-color: #f4f7fb;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.pizza {
+  width: 200px;
+  background-color: #f4f7fb;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.star {
+  background-color: #000;
+  width: 200px;
+  background-color: #f4f7fb;
+}
+
+#p {
+  background-color: #000;
+  border-radius: 50%;
+  width: 70px;
+  margin-left: 30px;
+}
+
+.highlight {
+  color: orange;
+}
+
+h1 {
+  font-size: 2.3em;
+}
+
+.pizza-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: no-wrap;
+}
+
+.menu {
+  color: orange;
+  padding-left: 45%;
+}
+
+.zza {
+  color: orange;
+}
+
+.for {
+  color: orange;
+  padding-left: 40%;
+}
+
+#s {
+  color: #000;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: no-wrap;
+}
+
+.menu-items {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu-item {
+  width: 30%;
+  background-color: #f4f7fb;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.menu-item img {
+  width: 50%;
+  height: 20%;
+  border-radius: 5px;
+  padding-left: 10%;
+}
+
+.btn-cart {
+  background-color: #000;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  margin-left: 20px;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.btn-view-more {
+  margin-top: 20px;
+  background-color: orange;
+  color: #fff;
+  padding: 10px 30px;
+  border-radius: 10px;
+  margin-left: 800px;
+}
+
+.menu-item h3,
+h4,
+h5 {
+  padding-left: 15%;
+}
+
+.menu-item h3,
+p {
+  padding-left: 15%;
+}
+
+.menu-item h4,
+p {
+  padding-left: 15%;
+}
+
+.menu-item h5 {
+  padding-left: 15%;
+}
+
+#c {
+  background-color: #000;
+}
+
+.fresh {
+  display: flex;
+  background-color: #f4f7fb;
+}
+
+.why-us {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: no-wrap;
+}
+
+.any {
+  color: orange;
+  text-align: center;
+}
+
+.our {
+  text-align: center;
+}
+
+.images {
+  margin-left: 19%;
+}
+
+.support {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: no-wrap;
+}
+
+.email-1 {
+  background-color: #f4f7fb;
+  padding: 1px;
+  align-items: center;
+  text-align: center;
+  border: 1px solid #f4f7fb;
+  width: 30%;
+}
+
+.email-2 {
+  background-color: #f4f7fb;
+  padding: 1px;
+  align-items: center;
+  text-align: center;
+  border: 1px solid #f4f7fb;
+  width: 30%;
+}
+
+.email-3 {
+  background-color: #f4f7fb;
+  padding: 1px;
+  align-items: center;
+  text-align: center;
+  border: 1px solid #f4f7fb;
+  width: 30%;
+}
+
+.footer {
+  background-color: #000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: no-wrap;
+  padding: 10px;
+  margin-top: 15px;
+}
+
+.pizzad {
+  margin: 10px;
+}
+.pizzad .stay {
+  color: white;
+  padding: 10px;
+}
+
+.link {
+  color: white;
+}
+
+.subscribe {
+  margin: 10px;
+}
+.subscribe .letter {
+  color: white;
+}
+.subscribe .btn-subscribe {
+  background-color: orange;
+}
+.subscribe .btn-subscribe:hover {
+  background-color: #333;
+}
+
+.btn {
+  padding: 20px 40px;
+  border-radius: 10px;
+}
+
+.input {
+  padding: 20px 40px;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+.home {
+  color: orange;
+}
+
+.footer-link {
+  gap: 30px;
 }

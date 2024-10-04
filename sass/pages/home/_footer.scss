@@ -1,0 +1,47 @@
+@use "../../utilities/variables" as *;
+@use "../../utilities/mixins" as *;
+
+.footer{
+    background-color: $black;
+    @include flex(space-between,center);
+    padding: 10px;
+    margin-top: 15px;
+}
+.pizzad{
+    margin: 10px;
+    .stay{
+        color: white;
+        padding: 10px;
+    }
+}
+.link{
+    color: white;
+}
+.subscribe{
+    margin: 10px;
+    .letter{
+        color: white;
+    }
+    .btn-subscribe{
+        background-color: $primary-color;
+        &:hover{
+            background-color: #333;
+        }
+    }
+}
+.btn{
+    padding: 20px 40px;
+    border-radius: 10px;
+}
+.input{
+    padding: 20px 40px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.home{
+    color: $primary-color;
+}
+.footer-link{
+    // @include flex(center,center);
+    gap:30px
+}
